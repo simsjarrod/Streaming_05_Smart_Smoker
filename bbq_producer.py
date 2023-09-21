@@ -24,8 +24,8 @@ from twilio.rest import Client
 # Twilio credentials
 account_sid = "ACd88dada50d875f75a12c6469e2cfcea1"
 auth_token = "YOUR_TWILIO_AUTH_TOKEN"
-twilio_phone_number = "18449132380"
-recipient_phone_number = "18165852225"
+twilio_phone_number = "15558675309"
+recipient_phone_number = "15558675309"
 
 # Configure RabbitMQ
 rabbit_host = 'localhost'
