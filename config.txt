@@ -1,0 +1,6 @@
+{
+    "account_sid": "acc",
+    "auth_token": "auth",
+    "twilio_phone_number": "tphone#",
+    "recipient_phone_number": "rphone#"
+}
