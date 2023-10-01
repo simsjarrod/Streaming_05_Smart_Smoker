@@ -15,10 +15,10 @@ import webbrowser
 import logging
 import time
 import csv
-# from twilio.rest import Client
-# import json 
+from twilio.rest import Client
+import json 
 
-"""
+
 ###### Text alerts will be implemented in the consumer code in the future ######
 # Twilio credentials
 # Open config file
@@ -46,7 +46,6 @@ except json.JSONDecodeError:
     print(f"Error decoding JSON data in the file '{file_path}'. Ensure the file is formatted correctly.")
 except Exception as e:
     print(f"An error occurred: {str(e)}")
-"""
     
 # Set up basic configuration for logging
 logging.basicConfig(
@@ -107,7 +106,7 @@ def main():
                     send_temps(ch, "food-B", timestamp, food_b_temp)
 
                     # Wait for 30 seconds before processing the next batch of records
-                    time.sleep(30)
+                    time.sleep(1)
                     # print a message to the console for the user
                     logging.info(f"Sent: Timestamp={timestamp}, Smoker Temp={smoker_temp}, Food A Temp={food_a_temp}, Food B Temp={food_b_temp}")
                     logging.info("Type CTRL+C to exit the program")

@@ -1,6 +1,6 @@
 {
-    "account_sid": "acc",
-    "auth_token": "auth",
-    "twilio_phone_number": "tphone#",
-    "recipient_phone_number": "rphone#"
+    "account_sid": "Your Account ID",
+    "auth_token": "Your Auth. Token",
+    "twilio_phone_number": "Your Twilio Phone #",
+    "recipient_phone_number": "Your Recipient Phone #"
 }
